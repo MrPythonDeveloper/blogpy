@@ -1,2 +1,6 @@
 #Migrations
 blog/migrations/
+
+
+#Static files
+files/
