@@ -7,6 +7,8 @@ urlpatterns = [
     url(r'^about/$',views.About.as_view(),name='about'),
 
     url(r'^article/all/$', views.AllArticleAPIView.as_view(), name='all_articles'),
+    url(r'^article/$', views.SingleArticleAPIView.as_view(), name='single_articles'),
+
 
 
 
